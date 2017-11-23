@@ -14,8 +14,8 @@ router.get('/', function(req, res, next) {
                 host: 'smtp.gmail.com',
                 // port:'465',
                 auth: {
-                    user: 'no-reply@taydotech.com',
-                    pass: 'taydotech!@#deployapp'
+                    user: 'nlanh0102@gmail.com',
+                    pass: '****'
                 }
             });
             transporter.use('compile', hbs({
